@@ -1,0 +1,60 @@
+
+:root {
+    --font-family: 'Impact', sans-serif;
+    --bg-color: #8d4afade;
+    --primary-color: #E8F9FD;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5em;
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+h2 {
+    font-size: 4em;
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    font-size: 0,5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 15px;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
